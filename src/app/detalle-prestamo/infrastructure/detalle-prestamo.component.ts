@@ -3,6 +3,7 @@ import { DetallePrestamo } from '../domain/detalle-prestamo.model';
 import { DetallePrestamoService } from '../application/detalle-prestamo.service';
 
 @Component({
+  standalone: false,
   selector: 'app-detalle-prestamo',
   template: `
     <h2>Detalle de Prestamos</h2>

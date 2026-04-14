@@ -3,6 +3,7 @@ import { Solicitud } from '../domain/solicitud.model';
 import { SolicitudService } from '../application/solicitud.service';
 
 @Component({
+  standalone: false,
   selector: 'app-solicitud',
   template: `
     <h2>Solicitudes</h2>

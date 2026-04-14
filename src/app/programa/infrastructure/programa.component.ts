@@ -3,6 +3,7 @@ import { Programa } from '../domain/programa.model';
 import { ProgramaService } from '../application/programa.service';
 
 @Component({
+  standalone: false,
   selector: 'app-programa',
   template: `
     <h2>Programas</h2>

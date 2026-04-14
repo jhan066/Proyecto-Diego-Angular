@@ -3,6 +3,7 @@ import { Prestamo } from '../domain/prestamo.model';
 import { PrestamoService } from '../application/prestamo.service';
 
 @Component({
+  standalone: false,
   selector: 'app-prestamo',
   template: `
     <h2>Prestamos</h2>
